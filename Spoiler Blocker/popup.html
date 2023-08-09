@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="popup.css" /> <!-- Apply enhanced CSS styles -->
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous"
+  />
+  <script
+    type="application/javascript"
+    charset="utf-8"
+    src="popup.js"
+  ></script>
+</head>
+<body>
+  <div class="body">
+    <h1 class="display-4">Rivial Spoiler Blocker</h1>
+    <div class="container1">
+      <form>
+        <div class="text-center">
+          <label for="userinput">Enter your movie keywords</label>
+        </div>
+        <input
+          type="text"
+          id="userinput"
+          class="form-control user-input"
+          placeholder="Enter keyword to restrict content"
+          autofocus
+          required
+        />
+        <center>
+          <input
+            type="submit"
+            class="btn btn-primary"
+            id="addButton"
+            value="Add"
+          />
+        </center>
+      </form>
+    </div>
+    <div class="keyword-container">
+      Keywords List <span id="keyword-length">0</span>
+      <div id="keywords-list"></div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+	"manifest_version": 2,
+	"name": "Spoiler Blocker",
+	"version": "1.0.0",
+	"description": "A Spoiler blocker extension from AI Rivial Capstone team",
+	"icons": {
+		"120": "icons/icon128.png",
+		"48": "icons/icon48.png",
+		"16": "icons/icon16.png"
+	},
+	"browser_action": {
+		"default": "icon16.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": ["storage", "activeTab", "contextMenus","tabs"],
+	"commands": {
+		"_execute_browser_action": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+F",
+				"mac": "MacCtrl+Shift+F"
+			},
+			"description": "Opens Content Blocker"
+		}
+	},
+	"background": {
+		"persistent": false,
+		"scripts": ["background.js"]
+	  },
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["jquery-3.5.0.min.js","demo.js" ,"hide-content.js"]
+		}
+	]
+}

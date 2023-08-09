@@ -1,0 +1,87 @@
+/* popup.css */
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.body {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form styles */
+.container1 {
+  margin-bottom: 20px;
+}
+
+.user-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.user-input:focus {
+  border-color: #007bff;
+}
+
+/* Button styles */
+.btn-primary {
+  width: 100%;
+  background-color: #007bff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Keywords list styles */
+.keyword-container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+#keywords-list {
+  margin-top: 10px;
+}
+
+/* Keyword item styles */
+.keyword-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.keyword-item:hover {
+  background-color: #f0f0f0;
+}
+
+#keyword-length {
+  font-weight: bold;
+}
