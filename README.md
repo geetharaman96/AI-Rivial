@@ -9,6 +9,8 @@ The Spoiler Blocker Chrome extension allows you to block spoilers related to you
 - Replaces spoiler text with cute images to maintain a spoiler-free browsing experience.
 - Easy-to-use interface with a browser action popup to manage blocked keywords.
 
+## Screenshots
+
 ![image](https://github.com/geetharaman96/AI-Rivial/assets/91738215/7d853e99-fc72-4152-8b59-6473ecdaf6c0)
 
 
